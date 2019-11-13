@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.592b26b9.chunk.css",
+    "main.js": "/portfolio/static/js/main.20a7fa7a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.20a7fa7a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e92c632a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e92c632a.js.map",
+    "static/js/2.031a27f3.chunk.js": "/portfolio/static/js/2.031a27f3.chunk.js",
+    "static/js/2.031a27f3.chunk.js.map": "/portfolio/static/js/2.031a27f3.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.179e6237179a0bcc3ac262514bd455de.js": "/portfolio/precache-manifest.179e6237179a0bcc3ac262514bd455de.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.592b26b9.chunk.css.map": "/portfolio/static/css/main.592b26b9.chunk.css.map",
+    "static/media/MazeGen.png": "/portfolio/static/media/MazeGen.fabb701a.png",
+    "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.407326d0.png",
+    "static/media/cang.png": "/portfolio/static/media/cang.cee904e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e92c632a.js",
+    "static/js/2.031a27f3.chunk.js",
+    "static/css/main.592b26b9.chunk.css",
+    "static/js/main.20a7fa7a.chunk.js"
+  ]
+}
