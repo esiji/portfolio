@@ -50,7 +50,8 @@ class Header extends React.Component {
     return (
       <div>
         <section className="name">
-          <h1><span className="first">Łukasz</span> <span className="last">Gabriel</span></h1>
+          <h1 className="my-name"><span className="first">Łukasz</span> <span className="last">Gabriel</span></h1>
+          <span className="header-add">Aspiring frontend developer</span>
         </section>
         <section className="buttons">
           <Button value="About" event1={this.changeButtonsOnHover} event2={this.changeButtonsOnLeave} />

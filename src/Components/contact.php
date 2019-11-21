@@ -9,5 +9,6 @@ if(isset($_POST['submit'])){
     $headers = "From: ".$mailFrom;
 
     mail($mailTo, $name, $message, $headers);
-    header("Location: index.html")
+    header("Location: index.html?mailsend")
 }
+?>

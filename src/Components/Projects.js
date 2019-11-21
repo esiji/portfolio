@@ -64,7 +64,7 @@ class Projects extends React.Component {
                 <img className="project-img" src={require("../Styles/images/MazeGen.png")} alt="Maze generator" />
                 <figcaption id="maze-info" className="project-information">
                     <span className="project-title">Maze Generator</span>
-                    <p>Generating random maze.</p>
+                    <p>Creates and solves mazes.</p>
                     <a className="inactive-link" target="_blank" href="https://esiji.github.io/Maze-gen0/">Link</a>
                     <a className="inactive-link" target="_blank" href="https://github.com/esiji/Maze-gen0">Code</a>
                 </figcaption>
@@ -73,17 +73,17 @@ class Projects extends React.Component {
                 <img className="project-img" src={require("../Styles/images/cang.png")} alt="Maze generator" />
                 <figcaption id="canG-info" className="project-information">
                     <span className="project-title">Canvas Game</span>
-                    <p>One level game made in canvas.(Not mobile friendly)</p>
+                    <p>One level game made in canvas.(Not mobile firendly)</p>
                     <a className="inactive-link" target="_blank" href="https://esiji.github.io/Canvas-Game/">Link</a>
                     <a className="inactive-link" target="_blank" href="https://github.com/esiji/Canvas-Game">Code</a>
                 </figcaption>
             </figure>
             <figure id="urg" className="project-container" onClick={this.onProjectClick} onMouseLeave={this.onLeaveProject}>
-                <img className="project-img" src={require("../Styles/images/cang.png")} alt="Maze generator" />
+                <img className="project-img" src={require("../Styles/images/Urg.png")} alt="Maze generator" />
                 <figcaption id="urg-info" className="project-information">
                     <span className="project-title">URG</span>
-                    <p>Simple website made with UNSPLASH api.</p>
-                    <a className="inactive-link" target="_blank" href="https://esiji.github.io/Canvas-Game/">Link</a>
+                    <p>Simple website that uses Unsplash API to display some random pictures.</p>
+                    <a className="inactive-link" target="_blank" href="https://urg-fbe38.firebaseapp.com/">Link</a>
                     <a className="inactive-link" target="_blank" href="https://github.com/esiji/URG">Code</a>
                 </figcaption>
             </figure>
@@ -91,9 +91,8 @@ class Projects extends React.Component {
                 <img className="project-img" src={require("../Styles/images/Portfolio.png")} alt="Maze generator" />
                 <figcaption id="portfolio-info" className="project-information">
                     <span className="project-title">Portfolio</span>
-                    <p>Simple portfolio, you're currently here(lol).</p>
-                    <a className="inactive-link" target="_blank" href="https://esiji.github.io/Canvas-Game/">Link</a>
-                    <a className="inactive-link" target="_blank" href="https://github.com/esiji/Canvas-Game">Code</a>
+                    <p>Simple portfolio made for me.</p>
+                    <a className="inactive-link" target="_blank" href="https://github.com/esiji/portfolio">Code</a>
                 </figcaption>
             </figure>
           </section>

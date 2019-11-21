@@ -10,8 +10,8 @@ class Contact extends React.Component {
   render() {
     return (
       <section className="contact">
-        <h2 className="contact-title">Contact</h2>
-        <form className="contact-form" action="./contact.php" method="post">
+        <h2 className="contact-title">Contact me</h2>
+        <form className="contact-form" action="./contact.php" method="POST">
             <div className="contact-container">
                 <label className="contact-label" htmlFor="email">Email</label>
                 <input className="contact-input" id="email" name="email" type="email" placeholder="Email"></input>

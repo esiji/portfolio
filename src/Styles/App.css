@@ -23,6 +23,7 @@ body {
 #about, #projects {
   margin: 20% 0%;
   padding: 20% 0%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 @media screen and (min-width: 600px) {
@@ -55,6 +56,7 @@ body {
   width: 10%;
   height: 15%;
   z-index: 100;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .navbar-close {
@@ -138,16 +140,27 @@ body {
   text-align: center;
   color: #fcfcfc;
   -webkit-text-stroke-color: #000;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 5px;
   text-shadow: 4px 4px 4px #808080;
   font-size: 10vw;
   width: 60%;
   margin: 10% 20%;
+  margin-bottom: 20%;
+}
+
+.name .my-name {
+  margin-bottom: 0;
 }
 
 .name .first {
   display: block;
   margin-right: 20%;
+}
+
+@media screen and (min-width: 600px) {
+  .name .first {
+    margin-right: 15vw;
+  }
 }
 
 .name .last {
@@ -157,13 +170,14 @@ body {
 
 @media screen and (min-width: 600px) {
   .name .last {
-    margin-left: 10vw;
+    margin-left: 15vw;
   }
 }
 
 @media screen and (min-width: 600px) {
   .name {
-    font-size: 8vw;
+    font-size: 5.5vw;
+    margin-bottom: 10%;
   }
 }
 
@@ -189,6 +203,17 @@ body {
   }
 }
 
+.header-add {
+  font-size: 4.5vw;
+  -webkit-text-stroke-width: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .header-add {
+    font-size: 2.5vw;
+  }
+}
+
 .nav-button {
   width: 100%;
   border-color: #000;
@@ -200,6 +225,7 @@ body {
   font-size: 3vw;
   -webkit-box-shadow: 4px 4px 4px #808080;
           box-shadow: 4px 4px 4px #808080;
+  font-family: 'Quicksand', sans-serif;
   -webkit-transition: color 4s, background-color 4s, opacity 4s, -webkit-transform 2s, -webkit-box-shadow 4s;
   transition: color 4s, background-color 4s, opacity 4s, -webkit-transform 2s, -webkit-box-shadow 4s;
   transition: color 4s, background-color 4s, transform 2s, box-shadow 4s, opacity 4s;
@@ -209,6 +235,7 @@ body {
 @media screen and (min-width: 600px) {
   .nav-button {
     padding: 3vh 0;
+    width: 90%;
   }
 }
 
@@ -262,13 +289,19 @@ body {
 .description {
   text-align: start;
   margin: 10% 0%;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 @media screen and (min-width: 1000px) {
   .description {
     margin: 5vh 0;
+    font-size: 150%;
   }
+}
+
+.skill {
+  font-weight: bold;
+  color: #b31f1f;
 }
 
 .skills {

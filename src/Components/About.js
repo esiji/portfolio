@@ -34,7 +34,18 @@ class About extends React.Component {
           <article className="about">
             <h2 className="title">About me</h2>
             <p className="description">
-              <span>Hello I'm Lukas Gabriel.</span> I aspire to become web-developer
+              Hello I'm Łukasz(Lukas) Gabriel. I aspire to become frontend developer.
+              My journey with programming started in may 2019 and ever since then i love it.
+              I started with python and Django but after a while i switched to learn JavaScript.
+              I'm looking for an opportunity to become better developer and use my skills in real projects.
+              I have good understanding of <span className="skill">HTML5</span>, <span className="skill">CSS3</span>
+              with preprocessor <span className="skill">SASS</span>, <span className="skill">JavaScript</span> and <span className="skill">RWD</span>.
+              I'm familiar with <span className="skill">React</span>, <span className="skill">bootstrap4</span> and <span className="skill">python</span> which means i understand
+              these technologies but it's not on the same level as stuffs I'm good at/still learning.
+              I use <span className="skill">chrome devtools</span> during creation process.
+              I know <span className="skill">Node.js</span> and <span className="skill">NPM</span> alongside with <span className="skill">bash</span>.
+              As version-control software i use <span className="skill">Git</span> and <span className="skill">Github</span> as repository.
+              Willing to learn anything new, it's not a problem for me to learn new stuffs and i really enjoy it.
             </p>
             <section className="skills">
                 <h3>Skills</h3>
