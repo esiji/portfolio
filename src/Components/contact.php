@@ -1,12 +1,14 @@
 <?php
 
-$name = $_POST['name'];
-$mailFrom = $_POST['email'];
-$message = $_POST['message'];
-$mailTo = "luki250350@yahoo.com";
-$headers = "From: ".$mailFrom;
-mail($mailTo, $name, $message, $headers);
+if($_POST) {
+    $name = $_POST['email_name'];
+    $mailFrom = $_POST['email_email'];
+    $message = $_POST['email_message'];
+    $mailTo = "luki250350@yahoo.com";
+    $headers = "From: ".$mailFrom;
+    mail($mailTo, $name, $message, $headers);
 
-echo "thank you."
+    echo "thank you."
+}
 
-?>
+?>  
