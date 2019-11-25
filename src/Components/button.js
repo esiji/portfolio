@@ -8,7 +8,7 @@ export class Button extends React.Component {
     }
 
     changeLocation(e){
-        window.location.href = `http://localhost:3000/#${e.target.id.toLowerCase()}`
+        window.location.href = `https://portfolio-lukgab.firebaseapp.com/#${e.target.id.toLowerCase()}`
     }
 
     render() {
